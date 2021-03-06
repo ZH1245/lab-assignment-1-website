@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+body {
+  font-family: "PT Sans", sans-serif;
+  margin: 2em;
+}
+.linker {
+  /* margin: 10px; */
+  /* width: 100%; */
+  background-color: rgb(11, 19, 19);
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+.linker ul {
+  /* color: white; */
+  list-style: none;
+  display: flex;
+  padding: 0 10px;
+}
+.linker a {
+  /* float: left; */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.linker a:hover {
+  transition: 0.2s;
+  background-color: rgb(91, 88, 128);
+  color: white;
+}
+
+.linker a.active {
+  background-color: #37b32c;
+  color: white;
+}
+.linker #about {
+  float: right;
+}
+.linker #cart {
+  display: flex;
+  float: right;
+}
+.header {
+  /* background-: black; */
+  /* color: white; */
+  /* border: 2px solid black; */
+  overflow: hidden;
+}
+
+.header {
+  padding: 0 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  /* display: flex; */
+}
+.header a {
+  /* margin-top: 30px; */
+  /* align-items: center; */
+
+  float: right;
+  text-decoration: none;
+}
+.header img {
+  width: 200px;
+  /* float: left; */
+}
+.header i {
+  padding-right: 12px;
+}
+.slider_images img {
+  max-width: 100%;
+  min-width: 100%;
+  /* background-image: url("https://www.gulahmedshop.com/pub/media/codazon/slideshow/cache/1900x600/n/e/new-lawn-banner-21-latest-pc-2.jpg"); */
+}
+#main_items {
+  display: flex;
+}
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.cards button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.cardsss button:hover {
+  opacity: 0.7;
+}
+
+.bottom {
+  background-color: rgb(31, 27, 27);
+  color: white;
+  height: fit-content;
+  overflow: hidden;
+  display: flex;
+  text-align: justify;
+}
+
+#about_us {
+  float: left;
+  max-width: 35%;
+  padding: 0 10px;
+}
+#contact_us {
+  max-width: 35%;
+  padding: 0 10px;
+  /* width: 35%; */
+}
+#store_location {
+  float: right;
+  max-width: 35%;
+  padding: 0 10px;
+}
+#info_creator {
+  background: rgb(49, 8, 8);
+  color: white;
+  padding-top: 0px;
+  height: 35px;
+}
+#social {
+  float: flex;
+}
