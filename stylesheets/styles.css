@@ -59,14 +59,13 @@ body {
 }
 .header a {
   padding-right: 20px;
-}
-.header a {
-  /* margin-top: 30px; */
-  /* align-items: center; */
-
   float: right;
   text-decoration: none;
 }
+/* .header a {
+  margin-top: 30px;
+  align-items: center;  
+} */
 .header img {
   width: 200px;
   /* float: left; */
@@ -107,7 +106,7 @@ body {
   font-size: 18px;
 }
 
-.cardsss button:hover {
+.cards button:hover {
   opacity: 0.7;
 }
 
