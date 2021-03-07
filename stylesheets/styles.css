@@ -186,7 +186,8 @@ a:hover {
   padding: 0px;
   list-style: none;
   /* border: 2px solid red; */
-  display: inline;
+  display: flex;
+  flex-wrap: wrap;
   overflow: hidden;
 }
 #social ul li {
