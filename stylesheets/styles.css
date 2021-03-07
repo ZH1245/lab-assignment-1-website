@@ -154,18 +154,23 @@ a:hover {
   border: 2px solid red;
 } */
 #about {
-  float: right;
+  float: left;
   align-self: center;
-  max-width: 30%;
+  /* width: fit-content; */
+  width: 30%;
+  overflow: hidden;
   text-align: center;
   /* max-width: 35%; */
   padding: 0 10px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+}
+#social {
+  width: fit-content;
 }
 #footer_content {
   /* float: right; */
   width: 70%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 0 10px;
   display: flex;
   padding: 0 0.7em;
@@ -175,12 +180,12 @@ a:hover {
 #customer {
   max-width: 100%;
   min-width: 50%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding-right: 50px;
 }
 #store_location {
   float: right;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* max-width: 35%; */
   width: 35%;
   padding: 0 10px;
@@ -196,7 +201,7 @@ a:hover {
 #social ul {
   padding: 0px;
   list-style: none;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   overflow: hidden;
 }
