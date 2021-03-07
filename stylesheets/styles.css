@@ -169,9 +169,7 @@ a:hover {
   max-width: 50%;
   min-width: 30%;
 }
-#social {
-  min-width: 20%;
-}
+
 #footer_content {
   /* float: right; */
   width: 70%;
@@ -189,6 +187,18 @@ a:hover {
   padding-right: 50px;
 }
 
+#social ul {
+  padding: 0px;
+  list-style: none;
+  /* border: 2px solid red; */
+  display: inline;
+  overflow: hidden;
+}
+#social ul li {
+  /* border: 2px solid red; */
+  padding-right: 15px;
+  /* display: flex; */
+}
 #social a {
   color: white;
 }
@@ -197,18 +207,6 @@ a:hover {
   transition: 0.3s;
 }
 
-#social ul {
-  padding: 0px;
-  list-style: none;
-  /* border: 2px solid red; */
-  display: flex;
-  overflow: hidden;
-}
-#social ul li {
-  /* border: 2px solid red; */
-  padding-right: 15px;
-  display: flex;
-}
 #about_us ul {
   list-style: none;
   padding: 0;
