@@ -157,7 +157,7 @@ a:hover {
   float: left;
 
   /* width: fit-content; */
-  max-width: fit-content;
+  max-width: 30%;
   overflow: hidden;
   /* text-align: center; */
   /* max-width: 35%; */
@@ -169,9 +169,7 @@ a:hover {
   max-width: 50%;
   min-width: 30%;
 }
-#social {
-  width: fit-content;
-}
+
 #footer_content {
   /* float: right; */
   width: 70%;
