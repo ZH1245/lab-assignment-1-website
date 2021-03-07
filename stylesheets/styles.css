@@ -30,8 +30,8 @@ a:hover {
   /* border: 2px solid red; */
   padding: 0 5px;
   list-style: none;
+  text-align: center;
   display: flex;
-
   float: left;
 }
 
@@ -60,9 +60,9 @@ a:hover {
   background-color: #37b32c;
   color: white;
 }
-.linker #about {
+/* .linker #about {
   float: right;
-}
+} */
 .linker #cart {
   display: flex;
   float: right;
@@ -76,7 +76,7 @@ a:hover {
   /* display: flex; */
 }
 .header img {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 30%;
 }
 .header a {
@@ -153,19 +153,13 @@ a:hover {
 } */
 #about {
   float: left;
-
-  /* width: fit-content; */
   max-width: 30%;
   overflow: hidden;
-  /* text-align: center; */
-  /* max-width: 35%; */
   padding: 0 10px;
-  /* text-align: center; */
-  /* border: 2px solid red; */
 }
 #about img {
-  max-width: 50%;
-  min-width: 30%;
+  max-width: 80%;
+  min-width: 50%;
 }
 
 #footer_content {
