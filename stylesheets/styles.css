@@ -68,18 +68,16 @@ a:hover {
   float: right;
 }
 .header {
-  /* background-: black; */
-  /* color: white; */
-  /* border: 2px solid black; */
-  overflow: hidden;
-}
-
-.header {
   /* padding: 0 10px; */
   align-items: center;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
   /* display: flex; */
+}
+.header img {
+  border: 2px solid red;
+  width: 30%;
 }
 .header a {
   padding-right: 20px;
@@ -90,10 +88,7 @@ a:hover {
   margin-top: 30px;
   align-items: center;  
 } */
-.header img {
-  width: 200px;
-  /* float: left; */
-}
+
 .header i {
   padding-right: 12px;
 }
