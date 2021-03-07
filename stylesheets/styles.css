@@ -199,10 +199,17 @@ a:hover {
   transition: 0.3s;
 }
 
-#about_us ul {
+#about_us ul,
+#customer ul {
   list-style: none;
   padding: 0;
 }
-#about_us ul li {
+#about_us ul li,
+#customer ul li {
   padding: 5px 0;
+}
+
+#about_us ul li a:hover,
+#customer ul li a:hover {
+  text-decoration: underline;
 }
