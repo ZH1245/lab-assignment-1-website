@@ -3,9 +3,9 @@ body {
   font-family: "PT Sans", sans-serif;
   margin: 0;
   width: fit-content;
-  max-width: fit-content;
-  min-width: 100%;
-  /* width: fit-content; */
+  /* max-width: fit-content;
+  min-width: 100%; */
+  width: fit-content;
 }
 a:hover {
   transition: 0.26s;
