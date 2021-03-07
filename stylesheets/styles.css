@@ -169,7 +169,9 @@ a:hover {
   max-width: 50%;
   min-width: 30%;
 }
-
+#social {
+  min-width: 20%;
+}
 #footer_content {
   /* float: right; */
   width: 70%;
